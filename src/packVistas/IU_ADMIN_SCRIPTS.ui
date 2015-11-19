@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>832</width>
+    <height>645</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Panel de administración</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="tScripts">
+     <property name="whatsThis">
+      <string>Contiene la lista de los Scripts existentes en el sistema. Se podrá ver información detallada sobre cada script y se podrá elegir si se quiere activar o desactivar el script a necesidad del usuario para que éste sea mostrado o no a los usuarios.</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>Identificador</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/im-msn.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/im-msn.svg</iconset>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nombre</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/irc-operator.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/irc-operator.svg</iconset>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Descripción</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/documentinfo.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/documentinfo.svg</iconset>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Ruta</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/network-connect.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/network-connect.svg</iconset>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Activado</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/irc-channel-active.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/irc-channel-active.svg</iconset>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bAnadir">
+       <property name="toolTip">
+        <string>Añadir un nuevo Script</string>
+       </property>
+       <property name="text">
+        <string>Añadir Script</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>plasma-next-icons/Breeze/actions/toolbar/irc-join-channel.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/irc-join-channel.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Expanding</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bModificar">
+       <property name="toolTip">
+        <string>Modificar el Script actualmente seleccionado</string>
+       </property>
+       <property name="text">
+        <string>Modificar Script</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>plasma-next-icons/Breeze/actions/toolbar/document-edit.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/document-edit.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bEeliminar">
+       <property name="toolTip">
+        <string>Borrar el Script actualmente seleccionado</string>
+       </property>
+       <property name="text">
+        <string>Eliminar Script</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>plasma-next-icons/Breeze/actions/toolbar/irc-remove-operator.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/irc-remove-operator.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,17 @@
+Hola.
+
+El administrador del sistema le ha creado un acceso al sistema Akeko para la gestión eficiente y
+mejorada de los alumnos en los distintos servicios y herramientas.
+
+A continuación se le facilitarán las credenciales necesarias para poder acceder al sistema.
+Recuerde tener instalada la aplicación en su escritorio para poder disfrutar de un funcionamiento óptimo en su sistema.
+
+
+    --> Usuario: %usuario
+    --> Contraseña: %scontrasena
+
+
+¡Un saludo!
+
+
+PD: Éste es un mensaje automático, por favor, no responda a ésta dirección. Gracias.

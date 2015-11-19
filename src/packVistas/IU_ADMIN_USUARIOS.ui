@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1121</width>
+    <height>803</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Panel de administración</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="tUsuarios">
+     <property name="whatsThis">
+      <string>Muestra la información de cada Usuario registrado en el sistema. El objetivo es proveer una vista completa de los Usuarios existentes y la información más importante para eliminar o modificar los datos contenidos.</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>Identificador</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/im-msn.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/im-msn.svg</iconset>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Usuario</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/im-user.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/im-user.svg</iconset>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nombre</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/format-text-subscript.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/format-text-subscript.svg</iconset>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Apellidos</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/format-text-superscript.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/format-text-superscript.svg</iconset>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Dni</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/document-edit-decrypt.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/document-edit-decrypt.svg</iconset>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Email</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/mail-mark-read.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/mail-mark-read.svg</iconset>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Fecha alta</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>plasma-next-icons/Breeze/actions/toolbar/view-calendar-day.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/view-calendar-day.svg</iconset>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bAnadir">
+       <property name="toolTip">
+        <string>Añadir un nuevo usuario</string>
+       </property>
+       <property name="text">
+        <string>Añadir usuario</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>plasma-next-icons/Breeze/actions/toolbar/list-add-user.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/list-add-user.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Expanding</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bModificar">
+       <property name="toolTip">
+        <string>Modificar el Usuario actualmente seleccionado</string>
+       </property>
+       <property name="text">
+        <string>Modificar usuario</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>plasma-next-icons/Breeze/actions/toolbar/user-properties.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/user-properties.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bEeliminar">
+       <property name="toolTip">
+        <string>Eliminar el usuario actualmente seleccionado</string>
+       </property>
+       <property name="text">
+        <string>Eliminar usuario</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>plasma-next-icons/Breeze/actions/toolbar/list-remove-user.svg</normaloff>plasma-next-icons/Breeze/actions/toolbar/list-remove-user.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

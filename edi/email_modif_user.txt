@@ -1,0 +1,15 @@
+Hola.
+
+El administrador del sistema le ha cambiado los parámetros de acceso al sistema Akeko.
+
+A continuación se le mostrarán las nuevas credenciales para que pueda acceder al sistema. Por favor,
+recuerde guardarlas en un lugar seguro.
+
+    --> Usuario: %usuario
+    --> Contraseña: %contrasena
+
+
+¡Un saludo!
+
+
+PD: Éste es un mensaje automático, por favor, no responda a ésta dirección. Gracias.
